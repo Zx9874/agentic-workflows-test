@@ -1,0 +1,84 @@
+{
+  "cli_version": "v0.53.4",
+  "run_id": 22731911244,
+  "processed_at": "2026-03-06T03:00:30.4853227+08:00",
+  "run": {
+    "databaseId": 22731911244,
+    "number": 3,
+    "url": "https://github.com/Zx9874/agentic-workflows-test/actions/runs/22731911244",
+    "status": "completed",
+    "conclusion": "failure",
+    "workflowName": "每日仓库状态报告 (Daily Repository Status)",
+    "workflowPath": ".github/workflows/daily-status.lock.yml",
+    "createdAt": "2026-03-05T18:56:23Z",
+    "startedAt": "2026-03-05T18:56:23Z",
+    "updatedAt": "2026-03-05T18:58:40Z",
+    "event": "workflow_dispatch",
+    "headBranch": "main",
+    "headSha": "b94559a2a65def8478ce84b9b520e71c18faca83",
+    "displayTitle": "每日仓库状态报告 (Daily Repository Status)",
+    "Duration": 137000000000,
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ErrorCount": 1,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "SafeItemsCount": 0,
+    "LogsPath": "D:\\编程工作区\\iflow 工作区\\github项目\\GitHub Agentic Workflows\\agentic-workflows-test\\.github\\aw\\logs\\run-22731911244"
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "artifacts_list": [
+    "aw-prompts\\prompt.txt",
+    "aw_info.json"
+  ],
+  "job_details": [
+    {
+      "name": "activation",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-03-05T18:56:31Z",
+      "completed_at": "2026-03-05T18:56:46Z",
+      "Duration": 15000000000
+    },
+    {
+      "name": "agent",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-03-05T18:56:49Z",
+      "completed_at": "2026-03-05T18:57:59Z",
+      "Duration": 70000000000
+    },
+    {
+      "name": "safe_outputs",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-03-05T18:58:03Z",
+      "completed_at": "2026-03-05T18:58:16Z",
+      "Duration": 13000000000
+    },
+    {
+      "name": "conclusion",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-03-05T18:58:19Z",
+      "completed_at": "2026-03-05T18:58:40Z",
+      "Duration": 21000000000
+    }
+  ]
+}

@@ -4,9 +4,9 @@ on:
   schedule: daily  # 每日自动运行
   workflow_dispatch:  # 手动触发
 
-# AI Engine - 使用 Anthropic Claude (最强模型)
+# AI Engine - 使用 codex 引擎 (OpenAI 兼容模式，通过代理访问 Claude)
 engine:
-  id: claude
+  id: codex
   model: claude-opus-4-5-20251101
 
 # Permissions - 工作流可以访问的权限
