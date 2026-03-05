@@ -15,8 +15,11 @@ permissions:
   issues: read
   pull-requests: read
 
-# Network access
-network: defaults
+# Network access - 添加自定义 API 端点域名
+network:
+  allowed-domains:
+    - code.coolyeah.net
+    - defaults
 
 # Outputs - AI 可以使用的输出操作
 safe-outputs:
