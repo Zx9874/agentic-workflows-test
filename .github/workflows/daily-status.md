@@ -17,7 +17,7 @@ permissions:
 
 # Network access - 添加自定义 API 端点域名
 network:
-  allowed-domains:
+  allowed:
     - code.coolyeah.net
     - defaults
 
