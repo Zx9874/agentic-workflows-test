@@ -4,12 +4,10 @@ on:
   schedule: daily  # 每日自动运行
   workflow_dispatch:  # 手动触发
 
-# AI Engine - 使用 DeepSeek API (OpenAI 兼容)
+# AI Engine - 使用 Anthropic Claude (最强模型)
 engine:
-  id: codex
-  model: deepseek-chat
-  env:
-    OPENAI_API_BASE: https://api.deepseek.com
+  id: claude
+  model: claude-opus-4-5-20251101
 
 # Permissions - 工作流可以访问的权限
 permissions:
